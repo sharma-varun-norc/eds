@@ -25,6 +25,12 @@ npm i
 npm run lint
 ```
 
+## Storybook
+
+Run `npm run storybook` and open http://localhost:6006 to explore the Cards block stories. The stories include image, text-only, mixed-content, single-card, and long-copy layouts, with editable card data, visibility controls, and click actions in the Actions panel.
+
+Run `npm run build-storybook` to create a static Storybook build in `storybook-static/`.
+
 ## Local development
 
 1. Create a new repository based on the `aem-boilerplate` template

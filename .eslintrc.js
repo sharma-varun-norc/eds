@@ -1,5 +1,6 @@
 module.exports = {
   root: true,
+  ignorePatterns: ['storybook-static/'],
   extends: 'airbnb-base',
   env: {
     browser: true,

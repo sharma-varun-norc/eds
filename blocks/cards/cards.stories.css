@@ -1,0 +1,23 @@
+.cards-story {
+  --background-color: #fff;
+
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: clamp(16px, 3vw, 40px);
+  color: #242424;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.cards-story .cards {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cards-story .cards h3 {
+  margin-top: 0;
+}
+
+.cards-story .cards-card-body p:last-child {
+  margin-bottom: 0;
+}
